@@ -20,6 +20,7 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graphics1Component } from './graphics1/graphics1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { Graphics1Component } from './graphics1/graphics1.component';
         ProgressComponent,
         Graphics1Component,
         IncrementComponent,
-        DoughnutChartComponent
+        DoughnutChartComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
